@@ -137,7 +137,7 @@ extern "C"
     }
 
     // starting values
-    double **StartingValues;
+    double **StartingValues = nullptr;
     int nStartingValues;
     nStartingValues = asInteger(n_starting_values);
     if (nStartingValues > 0) {
